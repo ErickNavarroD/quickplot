@@ -36,7 +36,8 @@ This function creates a boxplot with a jitter plot to observe the distribution o
 across one or more categorical variables. Furthermore, the mean is denoted as a black asterisk.
 }
 \examples{
-#Generate a box + jitter plot with the mpg dataset. The resulting plot can be further modified
+# Generate a box + jitter plot with the mpg dataset.
+# The resulting plot can be further modified
 # with ggplot2 functions to improve the visualization
 box_jitter_plot(ggplot2::mpg,
     var_x = model,

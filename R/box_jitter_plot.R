@@ -11,7 +11,8 @@
 #' @param alpha_boxplot,alpha_jitter Transparency parameter of the boxplot and jitterplot. Default is set to 0.3. Names come from "alpha of boxplot or jitterplot"
 #' @param width_jitter Width parameter of the jitterplot. Default is set to 0.1. Name comes from "width of jitterplot"
 #' @examples
-#' #Generate a box + jitter plot with the mpg dataset. The resulting plot can be further modified
+#' # Generate a box + jitter plot with the mpg dataset.
+#' # The resulting plot can be further modified
 #' # with ggplot2 functions to improve the visualization
 #' box_jitter_plot(ggplot2::mpg,
 #'     var_x = model,
