@@ -35,3 +35,17 @@ A ggplot2 histogram + jitter plot of a numerical variable with the mean marked a
 This function creates a boxplot with a jitter plot to observe the distribution of a numeric variable
 across one or more categorical variables. Furthermore, the mean is denoted as a black asterisk.
 }
+\examples{
+#Generate a box + jitter plot with the mpg dataset. The resulting plot can be further modified
+# with ggplot2 functions to improve the visualization
+box_jitter_plot(ggplot2::mpg,
+    var_x = model,
+    var_y = displ,
+    x_label = "Car model",
+    y_label = "Engine displacement (liters)",
+    alpha_boxplot = 0.4,
+    alpha_jitter = 0.4,
+    width_jitter = 0.15) +
+ggplot2::coord_flip()
+
+}
