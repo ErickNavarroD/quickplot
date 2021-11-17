@@ -3,7 +3,7 @@ Title: Create quick data exploration ggplot2 plots ready for reports
 Version: 0.1.0
 Authors@R: 
     person("Erick I.", "Navarro-Delgado", , "ericknadel98@ciencias.unam.mx", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0003-1040-3519"))
+           comment = c(ORCID = "https://orcid.org/0000-0002-5147-4711"))
 Description: A developing set of plot functions based on ggplot2. You choose a function, provide a tidy dataset, denote the variables, and it produces data exploration aesthetic plots ready for reports. 
 License: MIT + file LICENSE
 Encoding: UTF-8
