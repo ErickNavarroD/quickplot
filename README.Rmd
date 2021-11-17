@@ -29,7 +29,7 @@ This package was developed for an assignment of the [STAT545B course](https://st
 You can install the development version of quickplot like so:
 
 ``` r
-devtools::install_github(“ErickNavarroD/quickplot”) 
+devtools::install_github("ErickNavarroD/quickplot") 
 ```
 
 ## Example
