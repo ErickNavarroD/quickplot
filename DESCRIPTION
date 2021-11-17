@@ -1,10 +1,10 @@
 Package: quickplot
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Create quick data exploration ggplot2 plots ready for reports
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Erick I.", "Navarro-Delgado", , "ericknadel98@ciencias.unam.mx", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-1040-3519"))
+Description: A developing set of plot functions based on ggplot2. You choose a function, provide a tidy dataset, denote the variables, and it produces data exploration aesthetic plots ready for reports. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
