@@ -38,6 +38,9 @@ box_jitter_plot <- function(dataset,
                             alpha_boxplot = 0.3,
                             alpha_jitter = 0.3,
                             width_jitter = 0.1){
+
+  #Save the arguments in a list so we can access to them for checking the data types
+  #with non-dplyr functions
   arguments_list = list(var_y = dplyr::pull(dataset, {{var_y}}),
                         alpha_boxplot = alpha_boxplot,
                         alpha_jitter = alpha_jitter,
@@ -64,7 +67,7 @@ box_jitter_plot <- function(dataset,
 
   #Produce the plot
   dataset %>%
-    dplyr::filter(!is.na({{var_x}}),
+    dplyr::filter(!is.na({{var_x}}), #Remove na values from var_x and var_y
            !is.na({{var_y}})) %>%
     ggplot2::ggplot(ggplot2::aes( x = {{var_x}}, y = {{var_y}}, fill = {{var_x}})) +
     ggplot2::geom_boxplot(alpha = alpha_boxplot) +
